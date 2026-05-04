@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Swift Total</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Swift Total</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="info.html">About</a>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <section class="page-hero">
+      <span class="section-label">Blog</span>
+      <h1>Stories from the world of Swift Total</h1>
+      <p>Learn about board game design, retail stories, and the values behind our collections.</p>
+    </section>
+
+    <section class="blog-grid">
+      <article class="blog-card blog-card--clickable" tabindex="0">
+        <h2>Why affordable games matter</h2>
+        <p>Discover how accessible pricing helps us bring more families together through play.</p>
+        <div class="blog-details" hidden>
+          <p>At Swift Total, affordable pricing means more people can discover the joy of our games. This post discusses the value of approachable products for growing families and everyday game nights.</p>
+          <ul>
+            <li>Market insight: pricing that still feels premium</li>
+            <li>Impact: more homes can enjoy our titles</li>
+            <li>Design focus: accessible and uplifting play</li>
+          </ul>
+        </div>
+      </article>
+      <article class="blog-card blog-card--clickable" tabindex="0">
+        <h2>The inspiration behind our vintage style</h2>
+        <p>Explore the old-fashioned colors, textures, and stories that shape our brand.</p>
+        <div class="blog-details" hidden>
+          <p>Our vintage style blends museum-quality typography with modern color palettes, creating packaging that feels both familiar and fresh. Learn how tradition informs every design choice.</p>
+          <ul>
+            <li>Art direction: warm reds and watercolor palettes</li>
+            <li>Typography: elegant serif headings with clean modern copy</li>
+            <li>Brand tone: gentle, trustworthy, and memorable</li>
+          </ul>
+        </div>
+      </article>
+      <article class="blog-card blog-card--clickable" tabindex="0">
+        <h2>Shop availability and new retail partnerships</h2>
+        <p>Find out where our games are landing next and how we make them easy to buy worldwide.</p>
+        <div class="blog-details" hidden>
+          <p>Swift Total is expanding into new retailers across Europe, Asia, and North America. Read about our retail strategy and how we keep our games stocked in family-friendly stores.</p>
+          <ul>
+            <li>Retail reach: major chains and local boutiques</li>
+            <li>Logistics: consistent supply for everyday demand</li>
+            <li>Customer access: easy discovery in more shopping aisles</li>
+          </ul>
+        </div>
+      </article>
+      <article class="blog-card blog-card--clickable" tabindex="0">
+        <h2>Creating games for meaningful moments</h2>
+        <p>See how we design stories that make every game night feel special.</p>
+        <div class="blog-details" hidden>
+          <p>Meaningful game design is about more than mechanics. It is about emotion, nostalgia, and building rituals that women and families can enjoy year after year.</p>
+          <ul>
+            <li>Focus: connection over competition</li>
+            <li>Approach: calm, elegant player experiences</li>
+            <li>Deliverable: keepsake-worthy packaging</li>
+          </ul>
+        </div>
+      </article>
+      <article class="blog-card blog-card--clickable" tabindex="0">
+        <h2>Simple rules, lasting memories</h2>
+        <p>Discover why we choose clarity and warmth in every rulebook.</p>
+        <div class="blog-details" hidden>
+          <p>Simple rules allow the whole family to jump into the fun quickly. In this post, we explain how clean instructions help make Swift Total games welcoming for all age ranges.</p>
+          <ul>
+            <li>Design goal: intuitive play for everyone</li>
+            <li>Rulebook style: easy to scan and beautifully illustrated</li>
+            <li>Player experience: light-hearted and reassuring</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div class="product-modal blog-modal" aria-hidden="true">
+    <div class="product-modal__backdrop"></div>
+    <div class="product-modal__panel" role="dialog" aria-modal="true" aria-labelledby="blog-modal-title">
+      <button class="modal-close" aria-label="Close blog details">×</button>
+      <div class="modal-copy-wrap">
+        <h2 id="blog-modal-title"></h2>
+        <p class="modal-copy"></p>
+        <ul class="modal-specs"></ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Swift Total © 2026 — Board games that are affordable, available, and charming.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="info.html">About</a>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
